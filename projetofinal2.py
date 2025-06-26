@@ -85,12 +85,11 @@ def nova_janela():
      botao_calc = Button(frame_baixo, text="🧮Abrir Calculadora", width=25, height=2, bg=co3, fg=co1,font=('Ivy 10 bold'), relief=RAISED, overrelief=RIDGE, command=abrir_calculadora)
      botao_calc.place(relx=0.5, y=40, anchor=N)
      botao_calc = Button(frame_baixo, text="💪Abrir Calculadora de IMC", width=25, height=2, bg=co3, fg=co1,font=('Ivy 10 bold'), relief=RAISED, overrelief=RIDGE, command=abrir_calculadoraIMC)
-     botao_calc.place(relx=0.5, y=0, anchor=N)
+     botao_calc.place(relx=0.5, y=90, anchor=N)
      botao_calc = Button(frame_baixo, text="🎨Abrir Aplicativo de cores", width=25, height=2, bg=co3, fg=co1,font=('Ivy 10 bold'), relief=RAISED, overrelief=RIDGE, command=abrir_cores)
      botao_calc.place(relx=0.5, y=140, anchor=N)
 
      Label(frame_baixo, text="Clique em um botão para abrir o app", bg=co1, fg=co4, font=('Arial', 10)).place(relx=0.5, y=200, anchor=N)
-
 
 
 def abrir_calculadora():
